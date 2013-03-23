@@ -46,7 +46,7 @@ LS_USER=logstash
 LS_GROUP=adm
 
 #export JAVA_HOME=/usr/lib/jvm/default-java
-export JAVA_BIN=/usr/bin/java
+export JAVA_BIN=`which java`
 
 # Directory where the logstash all in one jar lives
 LS_HOME=/usr/share/logstash
