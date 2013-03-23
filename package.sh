@@ -8,7 +8,7 @@ if [ ! -f usr/share/logstash/logstash.jar ]; then
     wget "http://logstash.objects.dreamhost.com/release/logstash-${VERSION}-monolithic.jar" \
         -O usr/share/logstash/logstash.jar
 fi
-fpm1.9.1 \
+fpm \
     -n logstash \
     -v "$VERSION-$RELEASE" \
     -d openjdk-7-jre \
