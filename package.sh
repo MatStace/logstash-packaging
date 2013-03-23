@@ -11,7 +11,6 @@ fi
 fpm \
     -n logstash \
     -v "$VERSION-$RELEASE" \
-#    -d openjdk-7-jre-headless \
     -a all \
     -m "<lesspublic@gmail.com>" \
     --pre-install logstash.preinstall \
@@ -21,3 +20,4 @@ fpm \
     --config-files etc/default/logstash \
     -t deb \
     -s dir etc usr var
+#    -d openjdk-7-jre-headless \
