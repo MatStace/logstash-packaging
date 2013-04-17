@@ -1,5 +1,5 @@
 
-Running package.sh will download logstash 1.1.9, and package it into a .deb file. Look at package.sh if you want to do it manually.
+Running package.sh will download logstash 1.1.10, and package it into a .deb file. Look at package.sh if you want to do it manually.
 
 This will install logstash init scripts and sample config. For a quick test to see if it's working, try starting logstash and access the web interface on port 9292 after it's done spinning up.
 
