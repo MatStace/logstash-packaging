@@ -1,11 +1,11 @@
 #!/bin/bash
 
-VERSION=1.1.9
+VERSION=1.1.10
 RELEASE=1
 set -e
 
 if [ ! -f usr/share/logstash/logstash.jar ]; then
-    wget "http://logstash.objects.dreamhost.com/release/logstash-${VERSION}-monolithic.jar" \
+    wget "http://logstash.objects.dreamhost.com/release/logstash-${VERSION}-flatjar.jar" \
         -O usr/share/logstash/logstash.jar
 fi
 fpm \
